@@ -1,0 +1,6 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_group_code,group.code,model_group_code,base.group_user,1,1,1,1
+access_week_days,week.days,model_week_days,base.group_user,1,1,1,1
+access_student_attendance,student.attendance,model_student_attendance,base.group_user,1,1,1,1
+access_op_student,op.student,model_op_student,base.group_user,1,1,1,1
+access_student_payment,student.payment,model_student_payment,base.group_user,1,1,1,1

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="report_student_attendance_details_id">
+        <t t-call="web.html_container">
+            <t t-call="web.internal_layout">
+                <t t-foreach="docs" t-as="o">
+                    <div class="page">
+                        <t t-if="o.attendance_ids">
+                            <div class="text-center">
+                                <h5>
+                                    <strong>حضور الطالب</strong>
+                                </h5>
+                            </div>
+
+                            <table class="table table-condensed" style="border: 3px solid black !important;">
+                                <tr style="float:right; margin:10px 0;">
+                                    <td style="vertical-align: top;">
+                                        <div style="margin-right: 10px; margin-left: 10px; font-size: 20px;">
+                                            <span style="font-weight:600">
+                                                الاسم :
+                                            </span>
+                                            <span t-field='o.first_name'/>
+                                            <br></br>
+                                            <span style="font-weight:600">
+                                                كود الطالب :
+                                            </span>
+                                            <span t-field='o.student_code'/>
+                                            <br></br>
+                                            <span style="font-weight:600">
+                                                اسم المجموعة :
+                                            </span>
+                                            <span t-field='o.group_code_id'/>
+                                            <br></br>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+
+                            <table class="table table-sm o_main_table" name="Attendance">
+                                <thead>
+                                    <tr>
+                                        <th name="th_date" class="text-left">
+                                            <span>التاريخ</span>
+                                        </th>
+
+                                        <th name="th_marks" class="text-left">
+                                            <span>الدرجات</span>
+                                        </th>
+
+                                        <th name="th_memo" class="text-left">
+                                            <span>ملاحظه</span>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <t t-foreach="o.attendance_ids" t-as="line">
+                                    <tr>
+                                        <td>
+                                            <span t-field="line.a_date"/>
+                                        </td>
+                                        <td>
+                                            <span t-field="line.student_marks"/>
+                                        </td>
+                                        <td>
+                                            <span t-field="line.memo"/>
+                                        </td>
+                                    </tr>
+                                </t>
+                            </table>
+                        </t>
+                    </div>
+                </t>
+            </t>
+        </t>
+    </template>
+</odoo>

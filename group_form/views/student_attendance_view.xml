@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="view_student_attendance_tree" model="ir.ui.view">
+        <field name="name">student.attendance.tree</field>
+        <field name="model">student.attendance</field>
+        <field name="arch" type="xml">
+            <tree editable="top" sample='1'>
+                <field name="a_date"/>
+                <field name="attendance_id" string="Student"/>
+                <field name="student_marks" avg="Average Of Marks"/>
+                <field name="memo"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_student_attendance_form" model="ir.ui.view">
+        <field name="name">student.attendance.form</field>
+        <field name="model">student.attendance</field>
+        <field name="arch" type="xml">
+            <form sample='1'>
+                <group>
+                    <field name="a_date"/>
+                </group>
+                <group>
+                    <field name="attendance_id" string="Student"/>
+                    <field name="student_marks"/>
+                    <field name="memo"/>
+                </group>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_student_attendance_graph" model="ir.ui.view">
+        <field name="name">student.attendance.graph</field>
+        <field name="model">student.attendance</field>
+        <field name="arch" type="xml">
+            <graph string='Student Attendance' sample='1'>
+                <field name="a_date"/>
+                <field name="attendance_id"/>
+                <field name="student_marks" type="measure"/>
+            </graph>
+        </field>
+    </record>
+
+
+
+    <record id="view_student_name_id_search" model="ir.ui.view">
+        <field name="name">student_name_id.search</field>
+        <field name="model">student.attendance</field>
+        <field name="priority" eval="8"/>
+        <field name="arch" type="xml">
+            <search>
+                <field name="attendance_id" filter_domain="[('attendance_id','ilike',self)]" string="Student Code"/>
+                <group string="Group By">
+                        <filter name="a_date" context="{'group_by': 'a_date'}"/>
+                </group>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_student_attendance_root" model="ir.actions.act_window">
+        <field name="name">Attendance And Marks</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">student.attendance</field>
+        <field name="view_mode">tree,form,graph</field>
+        <field name="context">{'group_by_default_a_date': 1}</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Add your first attendance !
+            </p>
+        </field>
+    </record>
+
+    <menuitem id="menu_student_attendance_root"
+              name="Attendance And Marks"
+              parent="menu_group_code_root"
+              action="action_student_attendance_root"
+              sequence="10"/>
+</odoo>

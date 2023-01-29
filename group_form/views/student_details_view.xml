@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="view_student_activity" model="ir.ui.view">
+            <field name="name">op.student.activity</field>
+            <field name="model">op.student</field>
+            <field name="arch" type="xml">
+                <activity string="scheduling">
+                    <field name="student_code"/>
+                    <field name="first_name"/>
+                    <templates>
+                        <div t-name="activity-box">
+                            <div>
+                                <field name="student_code" display="full"/>
+                                <field name="first_name" display="full"/>
+                            </div>
+                        </div>
+                    </templates>
+                </activity>
+            </field>
+        </record>
+
+        <record id="view_student_form_inherit" model="ir.ui.view">
+            <field name="name">op.student.inherit</field>
+            <field name="model">op.student</field>
+            <field name="inherit_id" ref="openeducat_core.view_op_student_form"/>
+            <field name="priority">10</field>
+            <field name="arch" type="xml">
+                <xpath expr="//button[@name='create_student_user']" position="attributes">
+                    <attribute name="invisible">True</attribute>
+                </xpath>
+
+                <xpath expr="//field[@name='gender']" position="before">
+                    <field name="group_code_id" string="Group Name"/>
+                    <field name="student_code"/>
+                </xpath>
+
+                <xpath expr="//field[@name='gender']" position="attributes">
+                    <attribute name="required">0</attribute>
+                </xpath>
+
+                <xpath expr="//field[@name='mobile']" position="attributes">
+                    <attribute name="required">0</attribute>
+                </xpath>
+
+                <xpath expr="//field[@name='email']" position="attributes">
+                    <attribute name="required">0</attribute>
+                </xpath>
+
+                <xpath expr="//field[@name='birth_date']" position="attributes">
+                    <attribute name="required">0</attribute>
+                </xpath>
+
+                <xpath expr="//field[@name='middle_name']" position="attributes">
+                    <attribute name="invisible">True</attribute>
+                </xpath>
+
+                <xpath expr="//field[@name='last_name']" position="attributes">
+                    <attribute name="invisible">True</attribute>
+                    <attribute name="required">0</attribute>
+                </xpath>
+
+                <xpath expr="//td[@style='padding-right:10px; max-width:120px;']" position="attributes">
+                    <attribute name="style">padding-right:10px;</attribute>
+                </xpath>
+
+                <xpath expr="//field[@name='first_name']" position="attributes">
+                    <attribute name="placeholder">Name</attribute>
+                </xpath>
+
+                <xpath expr="//field[@name='blood_group']" position="attributes">
+                    <attribute name="invisible">True</attribute>
+                </xpath>
+
+                <xpath expr="//field[@name='visa_info']" position="attributes">
+                    <attribute name="invisible">True</attribute>
+                </xpath>
+
+                <xpath expr="//field[@name='category_id']" position="attributes">
+                    <attribute name="invisible">True</attribute>
+                </xpath>
+
+                <xpath expr="//field[@name='user_id']" position="attributes">
+                    <attribute name="invisible">True</attribute>
+                </xpath>
+
+                <xpath expr="//field[@name='partner_id']" position="attributes">
+                    <attribute name="invisible">True</attribute>
+                </xpath>
+
+                <xpath expr="//field[@name='emergency_contact']" position="attributes">
+                    <attribute name="invisible">True</attribute>
+                </xpath>
+
+                <xpath expr="//field[@name='nationality']" position="attributes">
+                    <attribute name="invisible">True</attribute>
+                </xpath>
+
+                <xpath expr="//field[@name='lang']" position="attributes">
+                    <attribute name="invisible">True</attribute>
+                </xpath>
+
+                <xpath expr="//field[@name='title']" position="attributes">
+                    <attribute name="invisible">True</attribute>
+                </xpath>
+
+                <xpath expr="//field[@name='image_1920']" position="attributes">
+                    <attribute name="invisible">True</attribute>
+                </xpath>
+
+                <xpath expr="//field[@name='mobile']" position="after">
+                    <field name="parent_mobile_no" string="Parent Mobile"/>
+                </xpath>
+
+                <xpath expr="//page[@name='personal_information']" position="after">
+                    <page name="attendance" string="Attendance And Marks">
+                        <group>
+                            <field name="attendance_ids" string="Attendance and Marks">
+                                <tree sample="1">
+                                    <field name="a_date" string="Date"/>
+                                    <field name="student_marks" avg="Average Of Marks"/>
+                                    <field name="memo"/>
+                                </tree>
+                            </field>
+                        </group>
+                    </page>
+                </xpath>
+
+                <xpath expr="//page[@name='attendance']" position="after">
+                    <page name="student_payment" string="Payment">
+                        <group>
+                            <field name="payment_ids" string="Payment">
+                                <tree sample="1">
+                                    <field name="payment_date" string="Date"/>
+                                    <field name="student_payment"/>
+                                    <field name="memo"/>
+                                </tree>
+                            </field>
+                        </group>
+                    </page>
+                </xpath>
+
+                <xpath expr="//page[@name='educational']" position="attributes">
+                    <attribute name="invisible">True</attribute>
+                </xpath>
+            </field>
+        </record>
+
+        <record id="view_student_tree_inherit" model="ir.ui.view">
+            <field name="name">op.student.inherit</field>
+            <field name="model">op.student</field>
+            <field name="inherit_id" ref="openeducat_core.view_op_student_tree"/>
+            <field name="priority">10</field>
+            <field name="arch" type="xml">
+<!--                <xpath expr="//tree" position="attributes">-->
+<!--                    <attribute name="editable">top</attribute>-->
+<!--                </xpath>-->
+
+                <xpath expr="//field[@name='name']" position="before">
+                    <field name="student_code" string="Student's Code"/>
+                </xpath>
+
+                <xpath expr="//field[@name='name']" position="after">
+                    <field name="group_code_id" string="Group Name"/>
+                </xpath>
+
+                <xpath expr="//field[@name='group_code_id']" position="after">
+                    <field name="mobile" string="mobile"/>
+                </xpath>
+
+                <xpath expr="//field[@name='mobile']" position="after">
+                    <field name="parent_mobile_no" string="Parent Mobile"/>
+                </xpath>
+
+                <xpath expr="//field[@name='title']" position="attributes">
+                    <attribute name="invisible">True</attribute>
+                </xpath>
+
+                <xpath expr="//field[@name='blood_group']" position="attributes">
+                    <attribute name="invisible">True</attribute>
+                </xpath>
+
+                <xpath expr="//field[@name='emergency_contact']" position="attributes">
+                    <attribute name="invisible">True</attribute>
+                </xpath>
+
+                <xpath expr="//field[@name='nationality']" position="attributes">
+                    <attribute name="invisible">True</attribute>
+                </xpath>
+
+                <xpath expr="//field[@name='lang']" position="attributes">
+                    <attribute name="invisible">True</attribute>
+                </xpath>
+            </field>
+        </record>
+
+        <record id="view_group_code_id_search" model="ir.ui.view">
+            <field name="name">group.code_id.search</field>
+            <field name="model">op.student</field>
+            <field name="inherit_id" ref="openeducat_core.view_op_student_search"/>
+            <field name="priority" eval="8"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='name']" position="attributes">
+                    <attribute name="filter_domain">['|', ('name', 'ilike', self), ('student_code','ilike', self)]
+                    </attribute>
+                </xpath>
+                <search>
+                    <field name="mobile"/>
+                    <field name="parent_mobile_no"/>
+                    <group string="Group By">
+                        <filter name="group_code_id" string="Group Name" context="{'group_by': 'group_code_id'}"/>
+                    </group>
+                </search>
+            </field>
+        </record>
+
+        <record id="action_student_inherit" model="ir.actions.act_window">
+            <field name="name">Student Details</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">op.student</field>
+            <field name="view_mode">tree,form,activity</field>
+            <field name="context">{'search_default_group_code_id': 1}</field>
+            <field name="help" type="html">
+                <p class="o_view_nocontent_smiling_face">
+                    Add your first student !
+                </p>
+            </field>
+        </record>
+
+        <menuitem id="menu_student_details"
+                  name="Student Details"
+                  parent="menu_group_code_root"
+                  action="action_student_inherit"
+                  sequence="10"/>
+
+    </data>
+</odoo>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Top menu item -->
+    <menuitem id="menu_group_code_root"
+              name="Groups"
+              sequence="0"/>
+</odoo>

@@ -1,0 +1,943 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* group_form
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0-20220831\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-06 15:16+0000\n"
+"PO-Revision-Date: 2022-11-06 15:16+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: group_form
+#: model_terms:ir.ui.view,arch_db:group_form.report_student_attendance_details_id
+#: model_terms:ir.ui.view,arch_db:group_form.report_student_payment_details_id
+msgid ""
+"<br/>\n"
+"                                            <span style=\"font-weight:600\">\n"
+"                                                اسم المجموعة :\n"
+"                                            </span>"
+msgstr ""
+
+#. module: group_form
+#: model_terms:ir.ui.view,arch_db:group_form.report_student_attendance_details_id
+#: model_terms:ir.ui.view,arch_db:group_form.report_student_payment_details_id
+msgid ""
+"<br/>\n"
+"                                            <span style=\"font-weight:600\">\n"
+"                                                كود الطالب :\n"
+"                                            </span>"
+msgstr ""
+
+#. module: group_form
+#: model_terms:ir.ui.view,arch_db:group_form.report_student_attendance_details_id
+#: model_terms:ir.ui.view,arch_db:group_form.report_student_payment_details_id
+msgid ""
+"<span style=\"font-weight:600\">\n"
+"                                                الاسم :\n"
+"                                            </span>"
+msgstr ""
+
+#. module: group_form
+#: model_terms:ir.ui.view,arch_db:group_form.report_student_attendance_details_id
+#: model_terms:ir.ui.view,arch_db:group_form.report_student_payment_details_id
+msgid "<span>التاريخ</span>"
+msgstr ""
+
+#. module: group_form
+#: model_terms:ir.ui.view,arch_db:group_form.report_student_attendance_details_id
+msgid "<span>الدرجات</span>"
+msgstr ""
+
+#. module: group_form
+#: model_terms:ir.ui.view,arch_db:group_form.report_student_payment_details_id
+msgid "<span>المبلغ</span>"
+msgstr ""
+
+#. module: group_form
+#: model_terms:ir.ui.view,arch_db:group_form.report_student_attendance_details_id
+#: model_terms:ir.ui.view,arch_db:group_form.report_student_payment_details_id
+msgid "<span>ملاحظه</span>"
+msgstr ""
+
+#. module: group_form
+#: model_terms:ir.ui.view,arch_db:group_form.report_student_attendance_details_id
+msgid "<strong>حضور الطالب</strong>"
+msgstr ""
+
+#. module: group_form
+#: model_terms:ir.ui.view,arch_db:group_form.report_student_payment_details_id
+msgid "<strong>مدفوعات الطالب</strong>"
+msgstr ""
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__active_lang_count
+msgid "Active Lang Count"
+msgstr ""
+
+#. module: group_form
+#: model_terms:ir.actions.act_window,help:group_form.action_student_attendance_root
+msgid "Add your first attendance !"
+msgstr "اضف حضورك الأول !"
+
+#. module: group_form
+#: model_terms:ir.actions.act_window,help:group_form.action_group_code
+msgid "Add your first group !"
+msgstr "اضف مجموعتك الأولى ! "
+
+#. module: group_form
+#: model_terms:ir.actions.act_window,help:group_form.action_student_payment
+msgid "Add your first payment !"
+msgstr "أضف المدفوعات !"
+
+#. module: group_form
+#: model_terms:ir.actions.act_window,help:group_form.action_student_inherit
+msgid "Add your first student !"
+msgstr "أضف طالب !"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__additional_info
+msgid "Additional info"
+msgstr "معلومات اضافية"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__type
+msgid "Address Type"
+msgstr "نوع العنوان"
+
+#. module: group_form
+#: model:ir.model.fields,help:group_form.field_op_student__lang
+msgid ""
+"All the emails and documents sent to this contact will be translated in this"
+" language."
+msgstr ""
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_student_payment__student_payment
+msgid "Amount"
+msgstr "المبلغ"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__attendance_ids
+#: model:ir.model.fields,field_description:group_form.field_student_attendance__attendance_id
+msgid "Attendance"
+msgstr "الحضور و الدرجات"
+
+#. module: group_form
+#: model:ir.actions.act_window,name:group_form.action_student_attendance_root
+#: model:ir.ui.menu,name:group_form.menu_student_attendance_root
+#: model_terms:ir.ui.view,arch_db:group_form.view_student_form_inherit
+msgid "Attendance And Marks"
+msgstr "الحضور و الدرجات"
+
+#. module: group_form
+#: model:ir.actions.report,name:group_form.report_student_attendance_details
+msgid "Attendance Details"
+msgstr "الحضور و الدرجات"
+
+#. module: group_form
+#: model_terms:ir.ui.view,arch_db:group_form.view_student_form_inherit
+msgid "Attendance and Marks"
+msgstr "الحضور و الدرجات"
+
+#. module: group_form
+#: model:ir.model,name:group_form.model_student_attendance
+msgid "Attendance of students"
+msgstr "حضور الطلاب"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__avatar_1920
+msgid "Avatar"
+msgstr ""
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__avatar_1024
+msgid "Avatar 1024"
+msgstr ""
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__avatar_128
+msgid "Avatar 128"
+msgstr ""
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__avatar_256
+msgid "Avatar 256"
+msgstr ""
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__avatar_512
+msgid "Avatar 512"
+msgstr ""
+
+#. module: group_form
+#: model_terms:ir.ui.view,arch_db:group_form.view_student_attendance_tree
+#: model_terms:ir.ui.view,arch_db:group_form.view_student_form_inherit
+msgid "Average Of Marks"
+msgstr "متوسط الدرجات"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__bank_ids
+msgid "Banks"
+msgstr "المصارف"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__barcode
+msgid "Barcode"
+msgstr "الرمز الشريطي"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__birth_date
+msgid "Birth Date"
+msgstr "تاريخ الميلاد"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__is_blacklisted
+msgid "Blacklist"
+msgstr "قائمة الحظر"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__mobile_blacklisted
+msgid "Blacklisted Phone Is Mobile"
+msgstr ""
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__phone_blacklisted
+msgid "Blacklisted Phone is Phone"
+msgstr ""
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__message_bounce
+msgid "Bounce"
+msgstr "وثب"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__can_publish
+msgid "Can Publish"
+msgstr "قابلة للنشر"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__channel_ids
+msgid "Channels"
+msgstr "قنوات"
+
+#. module: group_form
+#: model:ir.model.fields,help:group_form.field_op_student__is_company
+msgid "Check if the contact is a company, otherwise it is a person"
+msgstr "تحقق إذا كانت جهة الاتصال شركة، أو شخص"
+
+#. module: group_form
+#: model:ir.model.fields,help:group_form.field_op_student__employee
+msgid "Check this box if this contact is an Employee."
+msgstr "حدد خانة الاختيار إذا كان هذا الاتصال هو موظف."
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__city
+msgid "City"
+msgstr "مدينة"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__color
+msgid "Color Index"
+msgstr "فهرس الألوان"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__commercial_partner_id
+msgid "Commercial Entity"
+msgstr "الكيان التجاري"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__company_id
+msgid "Company"
+msgstr "الشركة"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__company_name
+msgid "Company Name"
+msgstr "اسم الشركة"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__commercial_company_name
+msgid "Company Name Entity"
+msgstr "الشركة اسم الكيان"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__company_type
+msgid "Company Type"
+msgstr "نوع الشركة"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__partner_gid
+msgid "Company database ID"
+msgstr "قاعدة بيانات الشركة"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__contact_address
+msgid "Complete Address"
+msgstr "العنوان الكامل"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__child_ids
+msgid "Contact"
+msgstr "جهة الاتصال"
+
+#. module: group_form
+#: model:ir.model.fields,help:group_form.field_op_student__message_bounce
+msgid "Counter of the number of bounced emails for this contact"
+msgstr "عداد لعدد ارتدت رسائل البريد الإلكتروني لجهة الاتصال هذه"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__country_id
+msgid "Country"
+msgstr "البلد"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__country_code
+msgid "Country Code"
+msgstr "رمز الدولة"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_group_code__create_uid
+#: model:ir.model.fields,field_description:group_form.field_student_attendance__create_uid
+#: model:ir.model.fields,field_description:group_form.field_student_payment__create_uid
+#: model:ir.model.fields,field_description:group_form.field_week_days__create_uid
+msgid "Created by"
+msgstr "أنشأ من قبل"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_group_code__create_date
+#: model:ir.model.fields,field_description:group_form.field_student_attendance__create_date
+#: model:ir.model.fields,field_description:group_form.field_student_payment__create_date
+#: model:ir.model.fields,field_description:group_form.field_week_days__create_date
+msgid "Created on"
+msgstr "تم انشاؤها في"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__credit_limit
+msgid "Credit Limit"
+msgstr "حد الائتمان"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__date
+#: model:ir.model.fields,field_description:group_form.field_student_attendance__a_date
+#: model:ir.model.fields,field_description:group_form.field_student_payment__payment_date
+#: model_terms:ir.ui.view,arch_db:group_form.view_student_form_inherit
+msgid "Date"
+msgstr "تاريخ"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_week_days__name
+#: model_terms:ir.ui.view,arch_db:group_form.view_group_tree
+msgid "Days"
+msgstr "الأيام"
+
+#. module: group_form
+#: model:ir.model,name:group_form.model_week_days
+msgid "Days of the Week"
+msgstr "أيام الأسبوع"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_group_code__display_name
+#: model:ir.model.fields,field_description:group_form.field_student_attendance__display_name
+#: model:ir.model.fields,field_description:group_form.field_student_payment__display_name
+#: model:ir.model.fields,field_description:group_form.field_week_days__display_name
+msgid "Display Name"
+msgstr "عرض الاسم"
+
+#. module: group_form
+#: model:ir.model.fields,help:group_form.field_op_student__partner_share
+msgid ""
+"Either customer (not a user), either shared user. Indicated the current "
+"partner is a customer without access or with a limited access created for "
+"sharing data."
+msgstr ""
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__email
+msgid "Email"
+msgstr "البريد الإلكتروني"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__employee
+msgid "Employee"
+msgstr "الموظف"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__employee_ids
+msgid "Employees"
+msgstr "الموظفين"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__employees_count
+msgid "Employees Count"
+msgstr "عدد الموظفين"
+
+#. module: group_form
+#: model:ir.model.fields.selection,name:group_form.selection__op_student__gender__f
+msgid "Female"
+msgstr "أنثى"
+
+#. module: group_form
+#: model:ir.model.fields,help:group_form.field_op_student__phone_sanitized
+msgid ""
+"Field used to store sanitized phone number. Helps speeding up searches and "
+"comparisons."
+msgstr ""
+
+#. module: group_form
+#: model:ir.model.fields,help:group_form.field_op_student__email_formatted
+msgid "Format email address \"Name <email@domain>\""
+msgstr "تنسيق عنوان البريد الإلكتروني \"; اسم <; email@domain>;\""
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__email_formatted
+msgid "Formatted Email"
+msgstr "تنسيق البريد الإلكتروني"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_group_code__from_hour
+#: model_terms:ir.ui.view,arch_db:group_form.view_group_form
+msgid "From"
+msgstr "من"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__gender
+msgid "Gender"
+msgstr "الجنس"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__partner_latitude
+msgid "Geo Latitude"
+msgstr ""
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__partner_longitude
+msgid "Geo Longitude"
+msgstr ""
+
+#. module: group_form
+#: model_terms:ir.ui.view,arch_db:group_form.view_group_code_id_search
+#: model_terms:ir.ui.view,arch_db:group_form.view_student_name_id_search
+#: model_terms:ir.ui.view,arch_db:group_form.view_student_payment_search
+msgid "Group By"
+msgstr "التجميع حسب"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__group_code_id
+msgid "Group Code"
+msgstr "كود المجموعة"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_group_code__group_code
+#: model_terms:ir.ui.view,arch_db:group_form.view_group_code_id_search
+#: model_terms:ir.ui.view,arch_db:group_form.view_group_form
+#: model_terms:ir.ui.view,arch_db:group_form.view_student_form_inherit
+#: model_terms:ir.ui.view,arch_db:group_form.view_student_tree_inherit
+msgid "Group Name"
+msgstr "اسم المجموعة"
+
+#. module: group_form
+#: model:ir.actions.act_window,name:group_form.action_group_code
+#: model:ir.model,name:group_form.model_group_code
+#: model:ir.ui.menu,name:group_form.menu_group_code_master
+#: model:ir.ui.menu,name:group_form.menu_group_code_root
+msgid "Groups"
+msgstr "المجموعات"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_group_code__id
+#: model:ir.model.fields,field_description:group_form.field_student_attendance__id
+#: model:ir.model.fields,field_description:group_form.field_student_payment__id
+#: model:ir.model.fields,field_description:group_form.field_week_days__id
+msgid "ID"
+msgstr "بطاقة تعريف"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__im_status
+msgid "IM Status"
+msgstr "حالة الدردشة"
+
+#. module: group_form
+#: model:ir.model.fields,help:group_form.field_op_student__is_blacklisted
+msgid ""
+"If the email address is on the blacklist, the contact won't receive mass "
+"mailing anymore, from any list"
+msgstr ""
+
+#. module: group_form
+#: model:ir.model.fields,help:group_form.field_op_student__phone_sanitized_blacklisted
+msgid ""
+"If the sanitized phone number is on the blacklist, the contact won't receive"
+" mass mailing sms anymore, from any list"
+msgstr ""
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__image_1920
+msgid "Image"
+msgstr ""
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__image_1024
+msgid "Image 1024"
+msgstr ""
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__image_128
+msgid "Image 128"
+msgstr ""
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__image_256
+msgid "Image 256"
+msgstr ""
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__image_512
+msgid "Image 512"
+msgstr ""
+
+#. module: group_form
+#: model:ir.model.fields,help:group_form.field_op_student__mobile_blacklisted
+msgid ""
+"Indicates if a blacklisted sanitized phone number is a mobile number. Helps "
+"distinguish which number is blacklisted             when there is both a "
+"mobile and phone field in a model."
+msgstr ""
+
+#. module: group_form
+#: model:ir.model.fields,help:group_form.field_op_student__phone_blacklisted
+msgid ""
+"Indicates if a blacklisted sanitized phone number is a phone number. Helps "
+"distinguish which number is blacklisted             when there is both a "
+"mobile and phone field in a model."
+msgstr ""
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__industry_id
+msgid "Industry"
+msgstr "الصناعة"
+
+#. module: group_form
+#: model:ir.model.fields,help:group_form.field_op_student__type
+msgid ""
+"Invoice & Delivery addresses are used in sales orders. Private addresses are"
+" only visible by authorized users."
+msgstr ""
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__is_published
+msgid "Is Published"
+msgstr "تم نشره"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__is_company
+msgid "Is a Company"
+msgstr "هي شركة"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__is_parent
+msgid "Is a Parent"
+msgstr "هل ولي أمر"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__is_student
+msgid "Is a Student"
+msgstr "هل هو طالب"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__function
+msgid "Job Position"
+msgstr "المركز الوظيفي"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__lang
+msgid "Language"
+msgstr "اللغة"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_group_code____last_update
+#: model:ir.model.fields,field_description:group_form.field_student_attendance____last_update
+#: model:ir.model.fields,field_description:group_form.field_student_payment____last_update
+#: model:ir.model.fields,field_description:group_form.field_week_days____last_update
+msgid "Last Modified on"
+msgstr "تاريخ آخر تعديل"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_group_code__write_uid
+#: model:ir.model.fields,field_description:group_form.field_student_attendance__write_uid
+#: model:ir.model.fields,field_description:group_form.field_student_payment__write_uid
+#: model:ir.model.fields,field_description:group_form.field_week_days__write_uid
+msgid "Last Updated by"
+msgstr "آخر تحديث بواسطة"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_group_code__write_date
+#: model:ir.model.fields,field_description:group_form.field_student_attendance__write_date
+#: model:ir.model.fields,field_description:group_form.field_student_payment__write_date
+#: model:ir.model.fields,field_description:group_form.field_week_days__write_date
+msgid "Last Updated on"
+msgstr "آخر تحديث في"
+
+#. module: group_form
+#: model:ir.model.fields.selection,name:group_form.selection__op_student__gender__m
+msgid "Male"
+msgstr "ذكر"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_student_attendance__student_marks
+msgid "Marks"
+msgstr "الدرجات"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_student_attendance__memo
+#: model:ir.model.fields,field_description:group_form.field_student_payment__memo
+msgid "Memo"
+msgstr "ملاحظه"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__mobile
+msgid "Mobile"
+msgstr "موبايل"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_group_code__name_ids
+#: model:ir.model.fields,field_description:group_form.field_op_student__name
+#: model_terms:ir.ui.view,arch_db:group_form.view_student_form_inherit
+msgid "Name"
+msgstr "الاسم"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__email_normalized
+msgid "Normalized Email"
+msgstr "بريد الكتروني"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__comment
+msgid "Notes"
+msgstr "ملاحظات"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_group_code__number_of_days
+#: model_terms:ir.ui.view,arch_db:group_form.view_group_form
+msgid "Number Of Days"
+msgstr "عدد الأيام"
+
+#. module: group_form
+#: model:ir.model.fields.selection,name:group_form.selection__op_student__gender__o
+msgid "Other"
+msgstr "اخر"
+
+#. module: group_form
+#: model_terms:ir.ui.view,arch_db:group_form.view_student_form_inherit
+#: model_terms:ir.ui.view,arch_db:group_form.view_student_tree_inherit
+msgid "Parent Mobile"
+msgstr "هاتف ولي الأمر"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__parent_mobile_no
+msgid "Parent Mobile No"
+msgstr "هاتف ولي الأمر"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__parent_name
+msgid "Parent name"
+msgstr "اسم ولي الأمر"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__partner_id
+msgid "Partner"
+msgstr "شريك"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__same_vat_partner_id
+msgid "Partner with same Tax ID"
+msgstr "شريك بنفس الرقم الضريبي"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__payment_ids
+#: model:ir.ui.menu,name:group_form.menu_student_payment_root
+#: model_terms:ir.ui.view,arch_db:group_form.view_student_form_inherit
+msgid "Payment"
+msgstr "المدفوعات"
+
+#. module: group_form
+#: model:ir.actions.report,name:group_form.report_student_payment_details
+msgid "Payment Details"
+msgstr "المدفوعات"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__phone
+msgid "Phone"
+msgstr "الهاتف"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__phone_sanitized_blacklisted
+msgid "Phone Blacklisted"
+msgstr "الهاتف مدرج في القائمة السوداء"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__phone_mobile_search
+msgid "Phone/Mobile"
+msgstr "الهاتف/الموبايل"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__property_product_pricelist
+msgid "Pricelist"
+msgstr "قائمة الاسعار"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__ref
+msgid "Reference"
+msgstr "المرجع"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__parent_id
+msgid "Related Company"
+msgstr "الشركة ذات الصلة"
+
+#. module: group_form
+#: model:ir.model.fields,help:group_form.field_op_student__employee_ids
+msgid "Related employees based on their private address"
+msgstr "الموظفين ذوي الصلة على أساس عنوانهم الخاص"
+
+#. module: group_form
+#: model:ir.model.fields,help:group_form.field_op_student__website_id
+msgid "Restrict publishing to this website."
+msgstr "تقييد النشر على هذا الموقع."
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__phone_sanitized
+msgid "Sanitized Number"
+msgstr ""
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__self
+msgid "Self"
+msgstr "الذاتي"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__partner_share
+msgid "Share Partner"
+msgstr "حصة الشريك"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__signup_expiration
+msgid "Signup Expiration"
+msgstr "انتهاء صلاحية الاشتراك"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__signup_token
+msgid "Signup Token"
+msgstr "رمز التسجيل"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__signup_type
+msgid "Signup Token Type"
+msgstr "نوع الرمز المميز للاشتراك"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__signup_valid
+msgid "Signup Token is Valid"
+msgstr "تسجيل الرمز المميز صالح"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__signup_url
+msgid "Signup URL"
+msgstr "رابط الاشتراك"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__state_id
+msgid "State"
+msgstr "الدولة"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__street
+msgid "Street"
+msgstr "شارع"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__street2
+msgid "Street2"
+msgstr "شارع2"
+
+#. module: group_form
+#: model_terms:ir.ui.view,arch_db:group_form.view_student_attendance_form
+#: model_terms:ir.ui.view,arch_db:group_form.view_student_attendance_tree
+msgid "Student"
+msgstr "الطالب"
+
+#. module: group_form
+#: model_terms:ir.ui.view,arch_db:group_form.view_student_attendance_graph
+msgid "Student Attendance"
+msgstr "حضور الطالب"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__student_code
+#: model_terms:ir.ui.view,arch_db:group_form.view_student_name_id_search
+#: model_terms:ir.ui.view,arch_db:group_form.view_student_payment_form
+#: model_terms:ir.ui.view,arch_db:group_form.view_student_payment_search
+#: model_terms:ir.ui.view,arch_db:group_form.view_student_payment_tree
+msgid "Student Code"
+msgstr "كود الطالب"
+
+#. module: group_form
+#: model:ir.actions.act_window,name:group_form.action_student_inherit
+#: model:ir.actions.report,name:group_form.report_student_details
+#: model:ir.model,name:group_form.model_op_student
+#: model:ir.ui.menu,name:group_form.menu_student_details
+msgid "Student Details"
+msgstr "بيانات الطلاب"
+
+#. module: group_form
+#: model:ir.actions.act_window,name:group_form.action_student_payment
+#: model:ir.model,name:group_form.model_student_payment
+msgid "Student Payment"
+msgstr "مدفوعات الطالب"
+
+#. module: group_form
+#: model_terms:ir.ui.view,arch_db:group_form.view_student_tree_inherit
+msgid "Student's Code"
+msgstr "كود الطالب"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_group_code__students_names_id
+msgid "Students Names"
+msgstr "اسماء الطلاب"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__vat
+msgid "Tax ID"
+msgstr "الرقم الضريبي"
+
+#. module: group_form
+#: model:ir.model.fields,help:group_form.field_op_student__country_code
+msgid ""
+"The ISO country code in two chars. \n"
+"You can use this field for quick search."
+msgstr ""
+
+#. module: group_form
+#: model:ir.model.fields,help:group_form.field_op_student__vat
+msgid ""
+"The Tax Identification Number. Complete it if the contact is subjected to "
+"government taxes. Used in some legal statements."
+msgstr ""
+
+#. module: group_form
+#: model:ir.model.fields,help:group_form.field_op_student__website_url
+msgid "The full URL to access the document through the website."
+msgstr "عنوان الرابط الكامل للوصول إلى المستند من خلال الموقع."
+
+#. module: group_form
+#: model:ir.model.fields,help:group_form.field_op_student__email_normalized
+msgid ""
+"This field is used to search on email address as the primary email field can"
+" contain more than strictly an email address."
+msgstr ""
+
+#. module: group_form
+#: model:ir.model.fields,help:group_form.field_op_student__property_product_pricelist
+msgid ""
+"This pricelist will be used, instead of the default one, for sales to the "
+"current partner"
+msgstr "سيتم استخدام هذه التسعيرة، بدلاً من الافتراضي، للبيع للشريك الحالي"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__tz
+msgid "Timezone"
+msgstr "المنطقة الزمنية"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__tz_offset
+msgid "Timezone offset"
+msgstr "إزاحة المنطقة الزمنية"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__title
+msgid "Title"
+msgstr "العنوان"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_group_code__to_hour
+#: model_terms:ir.ui.view,arch_db:group_form.view_group_form
+msgid "To"
+msgstr "الى"
+
+#. module: group_form
+#: model:ir.model.fields,help:group_form.field_op_student__barcode
+msgid "Use a barcode to identify this contact."
+msgstr "استخدم باركود لتحديد جهة الاتصال هذه"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__user_ids
+msgid "Users"
+msgstr "المستخدمين"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__is_venue
+msgid "Venue"
+msgstr "مكان"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__website_published
+msgid "Visible on current website"
+msgstr "يتم عرضه على الموقع الحالي"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__visitor_ids
+msgid "Visitors"
+msgstr "الزائرون"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__website_id
+msgid "Website"
+msgstr "الموقع"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__website
+msgid "Website Link"
+msgstr "رابط الموقع"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__website_url
+msgid "Website URL"
+msgstr "رابط الموقع"
+
+#. module: group_form
+#: model_terms:ir.ui.view,arch_db:group_form.view_group_form
+msgid "Week Days"
+msgstr "أيام الأسبوع"
+
+#. module: group_form
+#: model:ir.model.fields,help:group_form.field_op_student__tz
+msgid ""
+"When printing documents and exporting/importing data, time values are computed according to this timezone.\n"
+"If the timezone is not set, UTC (Coordinated Universal Time) is used.\n"
+"Anywhere else, time values are computed according to the time offset of your web client."
+msgstr ""
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_op_student__zip
+msgid "Zip"
+msgstr "الرمز البريدي"
+
+#. module: group_form
+#: model_terms:ir.ui.view,arch_db:group_form.view_student_tree_inherit
+msgid "mobile"
+msgstr "الموبايل"
+
+#. module: group_form
+#: model_terms:ir.ui.view,arch_db:group_form.view_student_activity
+msgid "scheduling"
+msgstr "جدولة"
+
+#. module: group_form
+#: model:ir.model.fields,field_description:group_form.field_student_payment__student_code_id
+msgid "student_code"
+msgstr "كود الطالب"

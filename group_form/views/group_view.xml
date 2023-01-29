@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="view_group_tree" model="ir.ui.view">
+        <field name="name">group.tree</field>
+        <field name="model">group.code</field>
+        <field name="arch" type="xml">
+            <tree sample='1'>
+                <field name="group_code"/>
+                <field name="name_ids" string="Days" widget="many2many_tags"/>
+                <field name="from_hour"/>
+                <field name="to_hour"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_group_form" model="ir.ui.view">
+        <field name="name">group.form</field>
+        <field name="model">group.code</field>
+        <field name="arch" type="xml">
+            <form sample='1'>
+                <sheet>
+                    <div class="oe_title">
+                        <h2>
+                            <label for="group_code" string="Group Name" class="oe_edit_only"/>
+                            <field name="group_code"/>
+                        </h2>
+                        <h4>
+                            <label for="number_of_days" string="Number Of Days"/>
+                            <field name="number_of_days"/>
+                            <label for="from_hour" string=" From"/>
+                            <field name="from_hour" widget="float_time"/>
+                            <label for="to_hour" string=" To"/>
+                            <field name="to_hour" widget="float_time"/>
+                        </h4>
+                        <group>
+                            <field name="name_ids" widget="many2many_tags" string="Week Days"/>
+                            <field name="students_names_id" widget="one2many_tags"/>
+                        </group>
+                    </div>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_group_code" model="ir.actions.act_window">
+        <field name="name">Groups</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">group.code</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Add your first group !
+            </p>
+        </field>
+    </record>
+
+    <menuitem id="menu_group_code_master"
+              name="Groups"
+              parent="menu_group_code_root"
+              action="action_group_code"
+              sequence="10"/>
+</odoo>
